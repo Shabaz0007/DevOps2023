@@ -1,0 +1,41 @@
+to switch to root user
+- sudo su
+
+to update linux package
+- yum update -y
+- apt update -y
+
+maven has dependency on java , so we need to insatll java
+
+- yum install java-11  -y 
+- apt install java-11  -y 
+
+
+to check the java version 
+
+- java -version
+
+
+command to install maven
+
+- yum install maven  -y
+- apt install maven  -y
+
+
+
+to check the maven version 
+
+- mvn -version
+
+
+Command to run the maven build
+- mvn package
+
+Command to run the first to clean the old output and then do the maven build
+- mvn clean package
+
+
+# to list the files in the dir
+ - ls
+ - ll
+ 

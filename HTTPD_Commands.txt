@@ -1,0 +1,16 @@
+Httpd commands
+
+
+How to install httpd
+
+- yum install httpd -y
+
+
+how to start the httpd service 
+
+- systemctl start httpd
+
+
+copy the files from html project to httpd server directory
+
+- cp -r /home/ec2-user/Myhtml_project/cake-shop-website-template/* /var/www/html/
